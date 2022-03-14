@@ -1,3 +1,4 @@
+//go:build windows
 // +build windows
 
 package main
@@ -9,8 +10,8 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/moutend/go-hook/pkg/mouse"
-	"github.com/moutend/go-hook/pkg/types"
+	"github.com/wuweiit/go-hook/pkg/mouse"
+	"github.com/wuweiit/go-hook/pkg/types"
 )
 
 func main() {

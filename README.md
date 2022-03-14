@@ -3,7 +3,7 @@ go-hook
 
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)][license]
 
-[license]: https://github.com/moutend/go-wca/blob/master/LICENSE
+[license]: https://github.com/wuweiit/go-wca/blob/master/LICENSE
 
 `go-hook`provides low level keyboard and mouse hook for Windows. This package is written in pure Go, `cgo` is not required.
 

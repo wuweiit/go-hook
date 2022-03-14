@@ -1,3 +1,4 @@
+//go:build windows
 // +build windows
 
 package main
@@ -11,9 +12,9 @@ import (
 	"unsafe"
 
 	"github.com/micmonay/keybd_event"
-	"github.com/moutend/go-hook/pkg/keyboard"
-	"github.com/moutend/go-hook/pkg/types"
-	"github.com/moutend/go-hook/pkg/win32"
+	"github.com/wuweiit/go-hook/pkg/keyboard"
+	"github.com/wuweiit/go-hook/pkg/types"
+	"github.com/wuweiit/go-hook/pkg/win32"
 )
 
 var (
